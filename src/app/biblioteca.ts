@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
  * sabe —ni tiene por qué saber— que detrás del 8080 hay dos microservicios.
  * Eso es exactamente lo que un gateway hace por ti.
  */
-export const GATEWAY = 'http://localhost:8080';
+export const GATEWAY = 'https://localhost:8080';
 
 export type Libro = {
   id: number;
